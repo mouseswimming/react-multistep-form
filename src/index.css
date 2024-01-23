@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.new-account-form input {
+  @apply border border-gray-500 px-4 py-2 rounded;
+}
+
+.new-account-form label {
+  @apply text-right;
+}
